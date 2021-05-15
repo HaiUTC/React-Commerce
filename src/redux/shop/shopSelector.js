@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import memoize from "lodash.memoize";
 import { createSelector } from "reselect";
 const selectCollections = (state) => state.shop;
@@ -27,3 +28,20 @@ export const selectCollectionLoading = createSelector(
   shop=> !!shop.collections
 )
 
+=======
+import { createSelector } from "reselect";
+import memoize from "lodash.memoize";
+const selectCollections = (state) => state.shop;
+
+export const selectShopCollections = createSelector(
+  [selectCollections],
+  (shop) => shop.collections
+);
+export const selectCollection = memoize((collectionsUrlParams) =>
+  createSelector(
+    [selectShopCollections],
+    (collections) => collections[collectionsUrlParams]
+  )
+);
+export default selectShopCollections;
+>>>>>>> 9b05af884294eed7eecd753d150631b0fa065e4c

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import userActionTypes from './userTypes'
 
 export const googleSigninStart = () =>({
@@ -51,3 +52,10 @@ export const signUpFailure = (error) =>({
 export const checkUserSession = () =>({
     type : userActionTypes.CHECK_USER_SESSION
 })
+=======
+import {userActionTypes} from './userTypes'
+export const userCurrent = user =>({
+    type : userActionTypes.SET_CURRENT_USER,
+    payload : user
+})
+>>>>>>> 9b05af884294eed7eecd753d150631b0fa065e4c

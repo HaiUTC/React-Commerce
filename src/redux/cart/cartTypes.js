@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const cartActionType = {
     TOGGLE_CART_ITEM : 'TOGGLE_CART_ITEM',
     ADD_ITEM : 'ADD_ITEM',
@@ -7,4 +8,14 @@ const cartActionType = {
     CLEAR_CART : 'CLEAR_CART' 
 }
 
+=======
+const cartActionType = {
+    TOGGLE_CART_ITEM : 'TOGGLE_CART_ITEM',
+    ADD_ITEM : 'ADD_ITEM',
+    CLEAR_ITEM_FROM_CART : 'CLEAR_ITEM_FROM_CART',
+    REMOVE_FROM_CART : 'REMOVE_FROM_CART',
+    ADD_FROM_CART : 'ADD_FROM_CART'
+}
+
+>>>>>>> 9b05af884294eed7eecd753d150631b0fa065e4c
 export default cartActionType

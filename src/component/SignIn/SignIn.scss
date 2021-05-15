@@ -1,0 +1,13 @@
+.sign-in{
+    min-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    
+    & h2{
+        margin: 10px 0;
+    }
+    & .submit-login{
+        display: flex;
+        flex-direction: row;
+    }
+}
