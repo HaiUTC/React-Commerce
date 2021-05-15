@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const userActionTypes = {
     SET_CURRENT_USER : 'SET_CURRENT_USER',
     GOOGLE_SIGNIN_START : 'GOOGLE_SIGNIN_START',
@@ -16,8 +15,3 @@ const userActionTypes = {
 
 
 export default userActionTypes
-=======
-export const userActionTypes = {
-    SET_CURRENT_USER : 'SET_CURRENT_USER'
-}
->>>>>>> 9b05af884294eed7eecd753d150631b0fa065e4c
